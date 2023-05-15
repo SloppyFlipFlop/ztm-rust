@@ -17,6 +17,5 @@ fn main() {
     }
     println!("{:?}", i);
     i = i + 1;
-    
   }
 }
