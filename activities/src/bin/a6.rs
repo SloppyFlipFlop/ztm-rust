@@ -13,13 +13,10 @@
 fn main() {
   let mut i = 5;
 
-  loop {
-    if i < 1 {
-      println!("done!");
-      break;
-    }
-
+  while i > 0 {
     println!("{:?}", i);
     i = i - 1;
   }
+
+  println!("done!");
 }
