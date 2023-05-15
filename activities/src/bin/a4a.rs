@@ -8,11 +8,10 @@
 // * Use a match expression to determine which message to display
 
 fn main() {
-  let state = false;
+  let state = true;
 
-  if state == true {
-    println!("it's true");
-  }else{
-    println!("it's false")
+  match state {
+    true => println!("it's true"),
+    false => println!("it's false"),
   }
 }
